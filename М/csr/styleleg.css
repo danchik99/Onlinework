@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    color: #000;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 4px;
+    line-height: 48px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    color: #555555;
+    font-weight: 400;
+    font-weight: 700;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background: url(https://storge.pic2.me/cm/2560x1440/951/58487259adcd0.jpg);
+    background-size: cover;
+}
+
+.header-inner {
+    width: 100%;
+}
+
+.header-top {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header-logo>a {
+    font-size: 24px;
+    line-height: 36px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.header-menu-inner {
+    display: flex;
+}
+
+.header-menu__item {
+    margin: 20px;
+    text-align: center;
+}
+
+.header-intro {
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-intro>p {
+    font-size: 40px;
+    color: #fff;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    width: 180px;
+    text-align: center;
+    padding: 15px 0;
+    margin: 20px 0;
+    font-size: 20px;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    background: transparent;
+    text-transform: uppercase;
+}
+
+.main-inner {
+    width: 100%;
+}
+
+.main-intro {
+    margin: 100px 0 0 0;
+}
+
+.main-intro-line {
+    width: 100px;
+    height: 3px;
+    background-color: #555555;
+    margin: 30px auto;
+}
+
+.main-intro>p {
+    font-size: 16px;
+    text-align: center;
+}
+
+a:hover {
+    background-color: rgba(117, 117, 117, 0.288);
+    padding: 15px;
+    border-radius: 20%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div ul {
+    list-style: none;
+}
+
+div>ul>li {
+    float: left;
+}
+
+div ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+div ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 125px;
+}
+
+div ul li a:hover {
+    background-color: rgba(117, 117, 117, 0.288);
+}
+
+div ul ul {
+    display: none;
+    position: absolute;
+}
+
+div ul li:hover ul {
+    display: block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    margin: 20px;
+    padding: 5px 10px;
+    background-color: rgb(7, 102, 196);
+    color: white;
+    border: none;
+    font-family: sans-serif;
+    outline: none;
+}
+
+#box {
+    width: 100%;
+    height: 100vh;
+}
+
+.flex-layout {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 40rem) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header ul {
+        display: flex;
+    }
+    header a {
+        border-top: none;
+    }
+}
+
+@media screen and (min-width: 80rem) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
